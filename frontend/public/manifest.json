@@ -1,0 +1,32 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "arrow-down.svg",
+      "type": "image/svg",
+      "sizes": "10x10"
+    }, {
+      "src": "calendar.svg",
+      "type": "image/svg",
+      "sizes": "20x20"
+    }, {
+      "src": "clock.svg",
+      "type": "image/svg",
+      "sizes": "20x20"
+    }, {
+      "src": "role.svg",
+      "type": "image/svg",
+      "sizes": "20x20"
+    }, {
+      "src": "hero.jpg",
+      "type": "image/svg",
+      "sizes": "1440×816"
+    }
+
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

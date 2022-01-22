@@ -1,0 +1,18 @@
+.item-container { 
+      padding: 1rem;
+      background-color: #FFF;
+      margin-top: 20px;
+      box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.row {
+      padding: 5px 20px;
+}
+
+h4 {
+      font-weight: bold;;
+}
+
+p { 
+      font-size: 16px;
+}
