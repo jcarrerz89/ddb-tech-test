@@ -34,11 +34,6 @@ const CareersList = () => {
       }
 
       return <div>
-                  <div className="careers-legend">
-                        <p>We're here to do honest, imaginative, 
-                              engaging work. <strong>You could be here too.</strong>
-                        </p>
-                  </div>
                   <Filters onSortBy={onSortBy} onFilterByDepartment={onFilterByDepartment} department={department} sortedBy={sortBy}></Filters>
                   {data.careersList.map(career => { 
                         return <CareerItem key={career._id} item={career}></CareerItem>

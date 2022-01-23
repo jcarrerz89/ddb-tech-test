@@ -10,7 +10,7 @@
 
 .hero-content h1 { 
   color: #FFF;
-  margin-top: 13rem;
+  margin-top: 6rem;
   text-align: left;
   position: absolute;
   width: inherit;
@@ -23,9 +23,15 @@
 }
 
 @media only screen and (max-width: 896px) {
-  .hero h1 { 
-    margin-top: 7rem;
+
+  .hero { 
+    background-image: url(./../../public/hero-mobile.jpg);
+    height: 70vh;
   }
+  .hero h1 { 
+    margin-top: 9rem;
+  }
+  
   .hero .hero-content, .content { 
     width: 90%;
     margin: 0 auto;

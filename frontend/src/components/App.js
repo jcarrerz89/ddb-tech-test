@@ -34,11 +34,14 @@ class App extends Component {
         <div className="App">
           <div className="hero">
             <div className="hero-content">
-              <h1>Oportunities availables</h1>
+              <h1>Opportunities Available</h1>
             </div>
           </div>
           <div className="container">
             <div className="content">
+              <div className="careers-legend">
+                <p>We're here to do honest, imaginative, engaging work. <strong>You could be here too.</strong></p>
+              </div>
               <CareersList></CareersList>
             </div>
           </div>
