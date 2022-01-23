@@ -1,0 +1,55 @@
+.filters-container {
+      height: 20px;
+}
+
+.filters-container ul li {
+      margin-right: 0.7rem;
+      float: right;
+}
+.filters-container .career-filter .bold {
+      font-weight: bold;
+}
+.filters-container .career-filter label {
+      cursor: pointer;
+}
+
+.filters-container .dropbtn {
+      font-size: 16px;
+      background-color: transparent;
+      text-transform: capitalize;
+      border: none;
+      width: 180px !important;
+}
+
+.filters-container .dropbtn span {
+      width: 160px !important;
+      margin-right: 2px;
+}
+
+.filters-container .dropdown {
+      width: 160px !important;
+      background-color: #F6f6f6;
+}
+
+.filters-container .dropdown-content {
+      display: none;
+      z-index: 1;
+      padding-top: 10px;
+}
+
+.filters-container .dropdown-content li {
+      text-align: right;
+      width: 100%;
+}
+
+.filters-container .dropdown-content a {
+      color: black;
+      text-decoration: none;
+      display: block;
+}
+
+.filters-container .dropdown-content li span {
+      cursor: pointer;
+}
+
+ .dropdown:hover .dropdown-content {display: block;}

@@ -9,7 +9,7 @@ const CareerItem = ({item}) => {
                         <h4>{item.title}</h4>
                   </div>
                   <div className="row">
-                        <CareerItemConditions department={item.department} period={item.type} publishedAt={item.publishedAt}></CareerItemConditions>
+                        <CareerItemConditions department={item.department} period={item.schedule} publishedAt={item.publishedAt}></CareerItemConditions>
                   </div >
                   <div className="row">
                         <p>{item.summary}</p>

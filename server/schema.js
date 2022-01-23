@@ -5,12 +5,12 @@ exports.typeDefs = gql`
             _id: Int
             title: String
             department: String
-            type: String
+            schedule: String
             publishedAt: String
             summary: String
       }
 
       type Query {
-            careersList: [Career]
+            careersList(department: String, sortBy: String): [Career]
       }
 `;
